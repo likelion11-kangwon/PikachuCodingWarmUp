@@ -1,3 +1,4 @@
+import MovePer from "./components/move_personal";
 //홈 페이지
 
 function Home(){
