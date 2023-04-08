@@ -11,6 +11,7 @@ function Home(){
             </h1>
             <h2>팀원 소개 둘러보기</h2>
             {/* movePer 컴포넌트로 개인 탭으로 이동하는 카드 추가하기 */}
+            <MovePer img_path="" page_path="/JeongDayeon" name="정다연" num="컴공22"/>
             <h2>팀 소개</h2>
         </div>
     );
