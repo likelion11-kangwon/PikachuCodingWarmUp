@@ -12,6 +12,7 @@ function JeongDayeon() {
         <AboutMe />
         <BalanceGame />
         <Projects />
+        <TechStacks />
     </div>
   );
 }
@@ -106,4 +107,38 @@ function Projects(){
     </div>
   );
 }
+function TechStacks(){
+  var alt="기술스택아이콘"
+
+  // 계속 반복해서 돌아가세 하고 싶은데 노가다 말곤 안 떠올라서 보류
+  const handleTransitionEnd = (event) => {
+    console.log('transition end');
+  };
+  return(
+    <div className='content' id="tech_stacks">
+      <h2>Tech_stacks</h2>
+      <div id="tech_container">
+        <ul onTransitionEnd={handleTransitionEnd}>
+          <li><img src="images/java.svg"  alt={alt}></img></li>
+          <li><img src="images/python.svg"  alt={alt}></img></li>
+          <li><img src="images/html5.svg"  alt={alt}></img></li>
+          <li><img src="images/css3.svg"  alt={alt}></img></li>
+          <li><img src="images/js.svg"  alt={alt}></img></li>
+          <li><img src="images/nodejs.svg"  alt={alt}></img></li>
+          <li><img src="images/pugjs.svg"  alt={alt}></img></li>
+          <li><img src="images/mongodb.svg"  alt={alt}></img></li>
+        </ul>
+      </div>
+      <p>
+        ...가 모두 제 기술스택이면 좋았겠지만 안타깝게도 아직 공부 중 입니다.
+      </p>
+      <p>
+        HTML/CSS/JS을 기본은 다룰 줄 알고 node.js, mongooDB로 서버를 구성할 수 있습니다. 
+        또한 python으로 데이터, 인공지능을 다뤄본 경험이 있습니다.
+        하지만 마음의 고향은 자바라서 언젠간 spring도 써보고 싶습니다.
+      </p>
+    </div>
+  );
+}
+
 export default JeongDayeon;
