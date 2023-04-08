@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import BGame from './components/balance_game.js';
 import Project from './components/project.js';
+import Channel from './components/channel.js';
 import dummy from './db/JDYdata.json';
 
 //정다연 개인 페이지
@@ -13,6 +14,7 @@ function JeongDayeon() {
         <BalanceGame />
         <Projects />
         <TechStacks />
+        <Channels />
     </div>
   );
 }
@@ -137,6 +139,17 @@ function TechStacks(){
         또한 python으로 데이터, 인공지능을 다뤄본 경험이 있습니다.
         하지만 마음의 고향은 자바라서 언젠간 spring도 써보고 싶습니다.
       </p>
+    </div>
+  );
+}
+function Channels(){
+  return(
+    <div className="content" id="channels">
+      <h2>Channels</h2>
+      <p>인터넷에서 저를 만나보세요!</p>
+      <Channel name="Github" link="https://github.com/dandamdandam"/>
+      <Channel name="Solved.ac" link="https://solved.ac/profile/glue0440"/>
+      <Channel name="Instagram" link="https://www.instagram.com/damdan1111111/"/>
     </div>
   );
 }
