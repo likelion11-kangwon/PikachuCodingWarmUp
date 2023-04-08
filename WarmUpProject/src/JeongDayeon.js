@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import BGame from './components/balance_game.js';
+import Project from './components/project.js';
 import dummy from './db/JDYdata.json';
+
 //정다연 개인 페이지
 
 function JeongDayeon() {
@@ -9,6 +11,7 @@ function JeongDayeon() {
         <Profile />
         <AboutMe />
         <BalanceGame />
+        <Projects />
     </div>
   );
 }
@@ -88,5 +91,19 @@ function BalanceGame(){
     </div>
   );
 }
-
+function Projects(){
+  return(
+    <div className="content" id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        {/* data.json에서 프로젝트 내용 불러오기 */}
+        {dummy.projs_data.map((proj_att) => (
+            <li key={proj_att.id}>
+              <Project proj_att={proj_att}/>
+            </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 export default JeongDayeon;
