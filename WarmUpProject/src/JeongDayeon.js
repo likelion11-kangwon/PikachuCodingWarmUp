@@ -1,3 +1,6 @@
+import {useState} from 'react';
+import BGame from './components/balance_game.js';
+import dummy from './db/JDYdata.json';
 //정다연 개인 페이지
 
 function JeongDayeon() {
@@ -5,6 +8,7 @@ function JeongDayeon() {
     <div className='JeongDayeon'>
         <Profile />
         <AboutMe />
+        <BalanceGame />
     </div>
   );
 }
@@ -55,6 +59,33 @@ function AboutMe(){
       </p>
       <p>현재 풀스택이라는 단어에 꽂혀서, 웹 a-z를 목표로 공부하고 있습니다.</p>
     </div>  
+  );
+}
+function BalanceGame(){
+  const [cnt, setCnt]=useState(0);            //사용자가 몇 개나 골랐는가
+  const [same_cnt, setSameCnt]=useState(0);   //사용자와 내 답이 일치하는 갯수
+  var b_game_cnt=dummy.b_games_data.length;
+
+  function upCnt(){
+    setCnt(cnt+1);
+  }
+  function upSameCnt(){
+    setSameCnt(same_cnt+1);
+  }
+  console.log(cnt, same_cnt);
+  return(
+    <div className="content" id="balance_game">
+      <h2>밸런스 게임</h2>
+      <ul>
+        {/* data.json에서 게임 내용 불러오기 */}
+        {dummy.b_games_data.map((game_att) => (
+            <li key={game_att.id}>
+              <BGame up_cnt={upCnt} up_same_cnt={upSameCnt} game_att={game_att}/>
+            </li>
+        ))}
+      </ul>
+      {cnt===b_game_cnt ? <p>저와 답변이 {same_cnt/cnt*100}% 일치합니다!</p> : null}
+    </div>
   );
 }
 
