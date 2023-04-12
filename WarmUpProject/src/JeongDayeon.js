@@ -3,10 +3,12 @@ import BGame from './components/balance_game.js';
 import Project from './components/project.js';
 import Channel from './components/channel.js';
 import dummy from './db/JDYdata.json';
+import './styles/jdy.css';
 
 //정다연 개인 페이지
 
 function JeongDayeon() {
+
   return (
     <div className='JeongDayeon'>
         <Profile />
@@ -25,13 +27,13 @@ function Profile(){
       <header>
         {/* 캐로셀 테스트용
         <img src="images/headimgtest.png"> */}
-        <h1>
+        <h1 claaName="jdy_h1">
             안녕하세요
             <br/>이것저것 도전 중!
-            <br/><span className='colored-text'>정다연</span>입니다.
+            <br/><span className="colored_text">정다연</span>입니다.
         </h1>
         <div className="article">
-            <p className='small_font'>
+            <p className="small_font">
               2004.01.16
               <br/>컴퓨터공학과 22학번
               <br/>Infj &#40;i 빼고 다 소문자입니다&#41;
@@ -54,11 +56,11 @@ function Profile(){
 function AboutMe(){
   return(
     <div className="content" id="about_me">
-      <h2>More about me</h2>
+      <h2 className="jdy_h2">More about me</h2>
       <p>관심분야: 웹, 인공지능, 데이터</p>
       <p>
         😽 📖 🎤 🏀 💻
-        <span className='small_font'>
+        <span className="small_font">
         <br/>고양이에 돌아있고, 헛되더라도 코드 짜는 것에 빠져있으며, 영화*책*음악(노래) 장르 안 가리고 다 좋아합니다. 
         특히 마지막은 추천도 받습니다! 관련 얘기하면서 친해지고 싶으면 언제든 연락주세요!
         </span>
@@ -81,7 +83,7 @@ function BalanceGame(){
   console.log(cnt, same_cnt);
   return(
     <div className="content" id="balance_game">
-      <h2>밸런스 게임</h2>
+      <h2 className="jdy_h2">밸런스 게임</h2>
       <ul>
         {/* data.json에서 게임 내용 불러오기 */}
         {dummy.b_games_data.map((game_att) => (
@@ -97,7 +99,7 @@ function BalanceGame(){
 function Projects(){
   return(
     <div className="content" id="projects">
-      <h2>My Projects</h2>
+      <h2 className="jdy_h2">My Projects</h2>
       <ul>
         {/* data.json에서 프로젝트 내용 불러오기 */}
         {dummy.projs_data.map((proj_att) => (
@@ -118,7 +120,7 @@ function TechStacks(){
   };
   return(
     <div className='content' id="tech_stacks">
-      <h2>Tech_stacks</h2>
+      <h2 className="jdy_h2">Tech_stacks</h2>
       <div id="tech_container">
         <ul onTransitionEnd={handleTransitionEnd}>
           <li><img src="images/java.svg"  alt={alt}></img></li>
@@ -145,7 +147,7 @@ function TechStacks(){
 function Channels(){
   return(
     <div className="content" id="channels">
-      <h2>Channels</h2>
+      <h2 className="jdy_h2">Channels</h2>
       <p>인터넷에서 저를 만나보세요!</p>
       <Channel name="Github" link="https://github.com/dandamdandam"/>
       <Channel name="Solved.ac" link="https://solved.ac/profile/glue0440"/>

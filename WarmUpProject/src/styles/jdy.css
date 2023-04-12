@@ -1,0 +1,18 @@
+:root{
+    --main-c: rgb(141, 219, 244);
+    --side-c: rgb(67, 67, 67);
+}
+
+.jdy_h1{
+    font-size:48px;
+}
+.jdy_h2{
+    font-size:32px;
+    color:var(--main-c);
+}
+.colored_text{
+    color: var(--main-c);
+}
+.small_font{
+    font-size:10px;
+}
