@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import BGame from './components/balance_game.js';
 import Project from './components/project.js';
 import Channel from './components/channel.js';
@@ -27,7 +27,7 @@ function Profile(){
       <header>
         {/* 캐로셀 테스트용
         <img src="images/headimgtest.png"> */}
-        <h1 claaName="jdy_h1">
+        <h1 className="jdy_h1">
             안녕하세요
             <br/>이것저것 도전 중!
             <br/><span className="colored_text">정다연</span>입니다.
@@ -114,23 +114,48 @@ function Projects(){
 function TechStacks(){
   var alt="기술스택아이콘"
 
-  // 계속 반복해서 돌아가세 하고 싶은데 노가다 말곤 안 떠올라서 보류
-  const handleTransitionEnd = (event) => {
-    console.log('transition end');
-  };
+  const move={
+    transition: 'all linear 100s',
+    transform: 'translate(-6540px)'
+  }
+
+  //스크롤 위치 가져와서 tech가 보이는지 확인
+  //상대적 위치가 2.3보다 작을 때.
+  const [onSight, setonsight] = useState(false);
+  function onScroll() {
+    setonsight(document.body.scrollHeight/window.scrollY < 2.3);
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []); 
+
+  //stack 사진리스트 여러개로
+  var repeat=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
   return(
     <div className='content' id="tech_stacks">
       <h2 className="jdy_h2">Tech_stacks</h2>
       <div id="tech_container">
-        <ul onTransitionEnd={handleTransitionEnd}>
-          <li><img src="images/java.svg"  alt={alt}></img></li>
-          <li><img src="images/python.svg"  alt={alt}></img></li>
-          <li><img src="images/html5.svg"  alt={alt}></img></li>
-          <li><img src="images/css3.svg"  alt={alt}></img></li>
-          <li><img src="images/js.svg"  alt={alt}></img></li>
-          <li><img src="images/nodejs.svg"  alt={alt}></img></li>
-          <li><img src="images/pugjs.svg"  alt={alt}></img></li>
-          <li><img src="images/mongodb.svg"  alt={alt}></img></li>
+        <ul style={onSight ? move : null}>
+          {
+            repeat.map(function(i){
+              return(
+                <div className='tech_stack_dummy' key={i}>
+                  <li><img src="images/java.svg"  alt={alt}></img></li>
+                  <li><img src="images/python.svg"  alt={alt}></img></li>
+                  <li><img src="images/html5.svg"  alt={alt}></img></li>
+                  <li><img src="images/css3.svg"  alt={alt}></img></li>
+                  <li><img src="images/js.svg"  alt={alt}></img></li>
+                  <li><img src="images/nodejs.svg"  alt={alt}></img></li>
+                  <li><img src="images/pugjs.svg"  alt={alt}></img></li>
+                  <li><img src="images/mongodb.svg"  alt={alt}></img></li>
+                </div>
+              )
+            })
+          }
         </ul>
       </div>
       <p>

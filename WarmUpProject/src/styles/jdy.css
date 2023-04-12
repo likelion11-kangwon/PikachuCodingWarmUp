@@ -21,32 +21,32 @@
 #projects ul{
     list-style-type:none;
     padding: 0px;
-  }
-  #projects li{
+}
+#projects li{
     padding: 10px 0px 10px 0px;
-  }
-  #projects .proj_panel{
+}
+#projects .proj_panel{
     background-color: rgb(67, 67, 67);
     border-radius: 16px;
     width: 350px;
     height: 280px;
     overflow: hidden;
-  }
-  #projects .header{
+}
+#projects .header{
     display: grid;
     grid-template-columns: 298px 32px;
-  }
-  .proj_panel .proj_name{
+}
+.proj_panel .proj_name{
     margin: 20px 0px 0px 20px;
     font-size: 24px;
-  }
-  .proj_panel .proj_info{
+}
+.proj_panel .proj_info{
     margin-left: 20px;
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: lighter;
-  }
-  .proj_panel .header button{
+}
+.proj_panel .header button{
     background: url("../../public/images/proj_panel_button_ui.svg") no-repeat center;
     margin-top: 20px;
     padding: 3px;
@@ -56,22 +56,22 @@
     cursor: pointer;
     transition: all ease 1s;
     transform: rotate(0turn);
-  
-  }
-  .proj_panel .header .turned{
+
+}
+.proj_panel .header .turned{
     transform: rotate(0.125turn);
-  }
-  .proj_content img{
+}
+.proj_content img{
     width: 350px;
     height: 188px;
-  }
-  .proj_content p{
+}
+.proj_content p{
     margin: 0px 20px 0px 20px;
     height: 120px;
     font-size: 18px;
     font-weight: lighter;
-  }
-  .proj_content a{
+}
+.proj_content a{
     display: block;
     background-color: var(--main-c);
     border-radius: 12px;
@@ -83,4 +83,26 @@
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-  }
+}
+
+/* 기술스택 리스트 css */
+#tech_stacks ul{
+    list-style: none;
+    padding: 0px;
+}
+#tech_stacks .tech_stack_dummy{
+    display: inline;
+}
+#tech_stacks li{
+    display: inline;
+}
+#tech_stacks img{
+    width: 128px;
+}
+#tech_stacks #tech_container{
+    display: flex;
+    overflow: hidden;
+    margin-left: calc(-50vw + 50%);
+    width:390px;
+    white-space:nowrap;
+}
