@@ -16,3 +16,71 @@
 .small_font{
     font-size:10px;
 }
+
+/* 프로젝트 카드 css */
+#projects ul{
+    list-style-type:none;
+    padding: 0px;
+  }
+  #projects li{
+    padding: 10px 0px 10px 0px;
+  }
+  #projects .proj_panel{
+    background-color: rgb(67, 67, 67);
+    border-radius: 16px;
+    width: 350px;
+    height: 280px;
+    overflow: hidden;
+  }
+  #projects .header{
+    display: grid;
+    grid-template-columns: 298px 32px;
+  }
+  .proj_panel .proj_name{
+    margin: 20px 0px 0px 20px;
+    font-size: 24px;
+  }
+  .proj_panel .proj_info{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  .proj_panel .header button{
+    background: url("../../public/images/proj_panel_button_ui.svg") no-repeat center;
+    margin-top: 20px;
+    padding: 3px;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: all ease 1s;
+    transform: rotate(0turn);
+  
+  }
+  .proj_panel .header .turned{
+    transform: rotate(0.125turn);
+  }
+  .proj_content img{
+    width: 350px;
+    height: 188px;
+  }
+  .proj_content p{
+    margin: 0px 20px 0px 20px;
+    height: 120px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .proj_content a{
+    display: block;
+    background-color: var(--main-c);
+    border-radius: 12px;
+    width: 310px;
+    height: 41px;
+    padding-top: 11px;
+    margin: 0px 20px 0px 20px;
+    color: var(--side-c);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
