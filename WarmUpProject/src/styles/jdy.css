@@ -62,6 +62,79 @@
     }   
 }
 
+/* 스크롤하면 돌아가는 인터렉션 */
+#profile, #about_me, #balance_game, #projects, #tech_stacks, #channels{
+    position: relative;
+    z-index: 3;
+}
+#justforsytle .stars{
+    position: absolute;
+    z-index: 0;
+    transform-origin: 50% 35%;
+    opacity: 0.5;
+}
+.stars:nth-child(1){
+    font-size:100px;
+    color: var(--side-c);
+    top: 800px;
+    left: 200px;
+}
+.stars:nth-child(2){
+    font-size:200px;
+    color: var(--main-c);
+    top: -20px;
+    left: 280px;
+}
+.stars:nth-child(3){
+    font-size:150px;
+    color: var(--side-c);
+    top: -15px;
+    left: 250px;
+}
+.stars:nth-child(4){
+    font-size:50px;
+    color: var(--font-c);
+    top: 390px;
+    left: 60px;
+}
+.stars:nth-child(5){
+    font-size:70px;
+    color: var(--font-c);
+    top: 200px;
+    left: 300px;
+}
+.stars:nth-child(6){
+    font-size:100px;
+    color: var(--side-c);
+    top: 700px;
+    left: 340px;
+}
+
+.stars:nth-child(7){
+    font-size:70px;
+    color: var(--main-c);
+    top: 500px;
+    left: 270px;
+}
+.stars:nth-child(8){
+    font-size:70px;
+    color: var(--font-c);
+    top: 810px;
+    left: 280px;
+}
+.stars:nth-child(9){
+    font-size:300px;
+    color: var(--main-c);
+    top: 1450px;
+    left: 300px;
+}
+.stars:nth-child(10){
+    font-size:200px;
+    color: var(--side-c);
+    top: 2200px;
+    left: 100px;
+}
+
 /* 프로젝트 카드 css */
 #projects ul{
     list-style-type:none;

@@ -11,6 +11,7 @@ function JeongDayeon() {
 
   return (
     <div className='JeongDayeon'>
+        <JustForStyle />
         <Profile />
         <AboutMe />
         <BalanceGame />
@@ -19,6 +20,34 @@ function JeongDayeon() {
         <Channels />
     </div>
   );
+}
+
+// 스크롤하면 돌아가는 인터렉션용 컴포넌트
+function JustForStyle(){
+  var repeat=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+  //스크롤 정도에 따라 요소 회전
+  const [rotateRate, setrotateRate]=useState(0);
+
+  function onScroll() {
+    setrotateRate(window.scrollY/document.body.scrollHeight*3);
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []); 
+
+  return(
+    <div id="justforsytle">
+      {
+        repeat.map(function(i){
+          return <div className='stars' key={i} style={{transform:'rotate('+rotateRate+'turn)'}}>*</div>
+        })
+      }
+    </div>
+  )
 }
 
 function Profile(){
