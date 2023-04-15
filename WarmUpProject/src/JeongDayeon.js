@@ -30,7 +30,7 @@ function JustForStyle(){
   const [rotateRate, setrotateRate]=useState(0);
 
   function onScroll() {
-    setrotateRate(window.scrollY/document.body.scrollHeight*3);
+    setrotateRate(window.scrollY/document.body.scrollHeight*5);
   }
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
