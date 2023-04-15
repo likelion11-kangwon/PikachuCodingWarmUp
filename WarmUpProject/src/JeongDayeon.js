@@ -25,12 +25,10 @@ function Profile(){
   return (
     <div className="content" id="profile">
       <header>
-        {/* 캐로셀 테스트용
-        <img src="images/headimgtest.png"> */}
         <h1 className="jdy_h1">
-            안녕하세요
-            <br/>이것저것 도전 중!
-            <br/><span className="colored_text">정다연</span>입니다.
+            <span className='line'>안녕하세요</span>
+            <span className='line'>이것저것 도전 중!</span>
+            <span className='line'><span className="colored_text">정다연</span>입니다.</span>
         </h1>
         <div className="article">
             <p className="small_font">

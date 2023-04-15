@@ -9,6 +9,10 @@
 .jdy_h1{
     font-size:48px;
 }
+.jdy_h1 .line::after{
+    content: "\A";
+    white-space: pre;
+}
 .jdy_h2{
     font-size:32px;
     color:var(--main-c);
@@ -23,6 +27,39 @@
     font-size:14px;
     color: var(--font-side-c);
     line-height: 110%;
+}
+
+/* 헤더 애니메이션 */
+.jdy_h1 .line{
+    white-space: nowrap;
+}
+.jdy_h1 .line:nth-child(1){
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-name: slidein;
+}
+.jdy_h1 .line:nth-child(2){
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-name: slidein;
+}
+.jdy_h1 .line:nth-child(3){
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }   
 }
 
 /* 프로젝트 카드 css */
