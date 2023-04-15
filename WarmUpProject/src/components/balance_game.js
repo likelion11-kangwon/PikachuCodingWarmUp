@@ -38,7 +38,7 @@ export default function BGame({up_cnt, up_same_cnt, game_att}){
             <p className="b_question">{game_att.q}</p>
             <button className="opt_1" onClick={() => agg(1)} style={selected_opt==1 ? {backgroundColor : correct ? 'rgb(141, 219, 244)':'rgb(197, 92, 92)'}:null} disabled={disabled}>{game_att.opt_1}</button>
             <button className="opt_2" onClick={() => agg(2)} style={selected_opt==2 ? {backgroundColor : correct ? 'rgb(141, 219, 244)':'rgb(197, 92, 92)'}:null} disabled={disabled}>{game_att.opt_2}</button>
-            {show_nuec ? <p className="b_nuec_add" >{game_att.nuec_add}</p> : null}
+            {show_nuec ? <p className="b_nuec_add small_font" >{game_att.nuec_add}</p> : null}
         </div>
     );
 }
