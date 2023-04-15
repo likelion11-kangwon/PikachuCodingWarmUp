@@ -1,6 +1,8 @@
 :root{
     --main-c: rgb(141, 219, 244);
     --side-c: rgb(67, 67, 67);
+    --back-c: rgb(34, 34, 34);
+    --font-c: white;
 }
 
 .jdy_h1{
@@ -26,7 +28,7 @@
     padding: 10px 0px 10px 0px;
 }
 #projects .proj_panel{
-    background-color: rgb(67, 67, 67);
+    background-color: var(--side-c);
     border-radius: 16px;
     width: 350px;
     height: 280px;
@@ -105,4 +107,39 @@
     margin-left: calc(-50vw + 50%);
     width:390px;
     white-space:nowrap;
+}
+
+/* 밸런스 게임 css */
+#balance_game ul{
+    list-style: none;
+    padding: 0px;
+}
+#balance_game .b_game{
+    text-align: center;
+}
+.b_game .b_question{
+    font-size:20px;
+    width: 350px;
+    border-radius: 3px;
+    background-color: var(--side-c);
+}
+.b_game .opt_1, .opt_2{
+    width: 175px;
+    height: 60px;
+    background-color: var(--back-c);
+    color:var(--font-c);
+    border-color: var(--font-c);
+    border-style: solid;
+    border-width: 1.5px;
+    font-family: inherit;
+}
+.b_game .opt_1{
+    border-radius: 16px 0px 0px 16px;
+}
+.b_game .opt_2{
+    border-radius: 0px 16px 16px 0px;
+}
+#balance_game .result{
+    text-align: center;
+    font-size: 20px;
 }

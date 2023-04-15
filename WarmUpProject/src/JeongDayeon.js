@@ -92,7 +92,7 @@ function BalanceGame(){
             </li>
         ))}
       </ul>
-      {cnt===b_game_cnt ? <p>저와 답변이 {same_cnt/cnt*100}% 일치합니다!</p> : null}
+      {cnt===b_game_cnt ? <p className='result colored_text'>저와 답변이 {same_cnt/cnt*100}% 일치합니다!</p> : null}
     </div>
   );
 }
