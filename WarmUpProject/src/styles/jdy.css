@@ -151,3 +151,19 @@
 }
 
 /* 채널 스타일 */
+#channels .chan_button a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--font-c);
+    border: 1.5px solid var(--font-c);
+    border-radius: 6px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 350px;
+}
+#channels .chan_button a:hover, .chan_button a:active{
+    border-color: var(--main-c);
+    color: var(--main-c);
+    filter: drop-shadow(5px 5px 5px white)
+}
