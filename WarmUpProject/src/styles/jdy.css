@@ -28,6 +28,12 @@
     color: var(--font-side-c);
     line-height: 110%;
 }
+.JeongDayeon #recommend_width{
+    position:absolute;
+    left:390px;
+    border-left: 2px solid var(--font-c);
+    width:14px;
+}
 
 /* 헤더 애니메이션 */
 .jdy_h1 .line{
