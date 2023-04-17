@@ -1,19 +1,20 @@
-import "https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700";
-import "https://fonts.googleapis.com/css?family=Inter%3A400%2C700";
-import "https://fonts.googleapis.com/css?family=DM+Sans%3A400%2C500%2C700";
+// import "https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700";
+// import "https://fonts.googleapis.com/css?family=Inter%3A400%2C700";
+// import "https://fonts.googleapis.com/css?family=DM+Sans%3A400%2C500%2C700";
 import './styles/sangtae.css';
 
-function SeoSangtae(){
-    return(
-        <div className='SeoSangtae'>
-            <SstBody/>
-        </div>
-    )
+function SeoSangtae() {
+  return (
+    <div className='SeoSangtae'>
+      <SstBody />
+    </div>
+  )
 }
 
-function SstBody(){
-    return(
-        <div className="sangtae-H9r">
+function SstBody() {
+  return (
+    <div className="sst_body">
+      <div className="sangtae-H9r">
         <div className="auto-group-rheq-hDa">
           <div className="item--uU4">강원대 멋쟁이사자처럼</div>
           <div className="item--hep">
@@ -67,7 +68,7 @@ function SstBody(){
             <div className="item--ANc">
               선호하는 메뉴를 먼저 학습을 시키고, 날씨 등 외부 환경을 고려해 점심 메뉴를 추천하는 서비스
               <br />
-    
+
               <br />
               인터넷 지도에서 음식 종류와 가격 범위를 선택하면 선택한 음식점 정보만 제공하는 서비스
             </div>
@@ -79,7 +80,7 @@ function SstBody(){
               <br />
               햄스터 종류 : 드워프햄스터 (블루 사파이어)
               <br />
-    
+
             </span>
           </div>
           <div className="auto-group-s1np-EhE">
@@ -143,7 +144,7 @@ function SstBody(){
           <div className="auto-group-ybje-4aL">
             <div className="auto-group-jk9r-P6p">
               <a href="https://www.notion.so/invite/445e0b77ee1c3a343b4d7ec7414bca2eda77a92c"><img className="image-12-uL4"
-                  src="images/sst_imgs/image-12.png" /></a>
+                src="images/sst_imgs/image-12.png" /></a>
             </div>
             <div className="auto-group-tgkz-2fa">
               <a href="https://discord.gg/9kNasTt9"><img className="image-10-NjS" src="images/sst_imgs/image-10.png" /></a>
@@ -158,7 +159,8 @@ function SstBody(){
           <div className="item-010-6319-2108-TuJ">010-6319-2108</div>
         </div>
       </div>
-    )
+    </div>
+  )
 }
 
 export default SeoSangtae;

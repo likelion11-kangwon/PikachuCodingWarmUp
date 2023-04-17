@@ -1,18 +1,11 @@
-
-html {
-	font-size:62.5%;
-}
-* {
-	margin: 0;
-	padding: 0;
-}
-ul, li {
+.SeoSangtae ul, li {
 	list-style: none;
 }
-input {
+.SeoSangtae input {
 	border: none;
 }
-body {
+.sst_body {
+  font-size:62.5%;
   width: 39rem;
 }.sangtae-H9r {
   width: 100%;
@@ -422,7 +415,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/kakaotalk20230403212212724-1-bg.png');
+  background-image: url('../../public/images/sst_imgs/kakaotalk20230403212212724-1-bg.png');
   border-radius: 3rem;
   flex-shrink: 0;
 }
@@ -803,7 +796,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/image-11-bg.png');
+  background-image: url('../../public/images/sst_imgs/image-11-bg.png');
   flex-shrink: 0;
 }
 .sangtae-H9r .auto-group-dkdi-5nx .auto-group-ybje-4aL .auto-group-jk9r-P6p .image-12-uL4 {
@@ -819,7 +812,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/image-9-bg.png');
+  background-image: url('../../public/images/sst_imgs/image-9-bg.png');
   flex-shrink: 0;
 }
 .sangtae-H9r .auto-group-dkdi-5nx .auto-group-ybje-4aL .auto-group-tgkz-2fa .image-10-NjS {

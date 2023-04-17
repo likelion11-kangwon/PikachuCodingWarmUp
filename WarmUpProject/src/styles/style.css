@@ -34,7 +34,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
 }
-.button {
+.KimSeongbin .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -43,7 +43,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.input {
+.KimSeongbin .input {
   color: var(--dl-color-gray-black);
   cursor: auto;
   padding: 0.5rem 1rem;
@@ -52,7 +52,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.textarea {
+.KimSeongbin .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
   padding: 0.5rem;
@@ -61,7 +61,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.list {
+.KimSeongbin .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
   display: block;
@@ -69,14 +69,14 @@
   list-style-type: none;
   list-style-position: outside;
 }
-.list-item {
+.KimSeongbin .list-item {
   display: list-item;
 }
-.teleport-show {
+.KimSeongbin .teleport-show {
   display: flex !important;
   transform: none !important;
 }
-.Content {
+.KimSeongbin .Content {
   font-size: 16px;
   font-family: Inter;
   font-weight: 400;
@@ -84,7 +84,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.Heading {
+.KimSeongbin .Heading {
   font-size: 32px;
   font-family: Inter;
   font-weight: 700;

@@ -171,7 +171,7 @@
     font-weight: lighter;
 }
 .proj_panel .header button{
-    background: url("../../public/images/proj_panel_button_ui.svg") no-repeat center;
+    background: url("../../public/images/jdy_imgs/proj_panel_button_ui.svg") no-repeat center;
     margin-top: 20px;
     padding: 3px;
     border: none;
