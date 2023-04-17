@@ -11,14 +11,16 @@ function JeongDayeon() {
 
   return (
     <div className='JeongDayeon'>
-        <div id='recommend_width' className='small_font'>width를 이 선에 맞추어 웹페이지를 봐주세요</div>
-        <JustForStyle />
-        <Profile />
-        <AboutMe />
-        <BalanceGame />
-        <Projects />
-        <TechStacks />
-        <Channels />
+        <JustForStyle/>
+        <div id='width_cut'>
+          <JustForStyle />
+          <Profile />
+          <AboutMe />
+          <BalanceGame />
+          <Projects />
+          <TechStacks />
+          <Channels />
+        </div>
     </div>
   );
 }
