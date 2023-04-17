@@ -5,7 +5,7 @@
             "name":"Classify distination",
             "info":"사진분류기반 여행지 추천 서비스",
             "detail":"이미지 분류를 통한 제주도 여행지 추천 서비스. 2022 KNU 하계부트캠프에서 팀 프로젝트로 총 5명이 함께 제작.",
-            "img_path":"images/proj1_img.JPG",
+            "img_path":"images/jdy_imgs/proj1_img.JPG",
             "proj_path":"https://github.com/dandamdandam/Jejudo_tf"
         },
         {
@@ -13,7 +13,7 @@
             "name":"영어 단어 시험 사이트",
             "info":"(진행 중) 단어/의미/소리로 시험 및 채점",
             "detail":"사용자가 입력한 단어들 중 몇 개를 랜덤으로 뽑아 영어 단어(스펠링, 의미, 소리 중 하나)를 제시하고 답을 입력받는 사이트. 홈, 단어입력 탭 완료.",
-            "img_path":"images/proj2_img.png",
+            "img_path":"images/jdy_imgs/proj2_img.png",
             "proj_path":"https://github.com/dandamdandam/En_word_test_web"
         },
         {
@@ -21,7 +21,7 @@
             "name":"Getting Started 위키",
             "info":"(아이디어) 새로운 것을 배우기 최적화된 위키!",
             "detail":"로그인, 교과서의 목차처럼 한 주제에 관한 중요한 키워드를 적고 그에 대한 설명을 연결할 수 있게 함.",
-            "img_path":"images/proj3_img.JPG",
+            "img_path":"images/jdy_imgs/proj3_img.JPG",
             "proj_path":""
         },
         {
@@ -29,7 +29,7 @@
             "name":"미정",
             "info":"(아이디어) 웹사이트를 읽어주는 웹",
             "detail":"들어오는 내용의 카테고리(이미지/도표/수학기호 등)를 인식하고 그에 맞추어 처리.",
-            "img_path":"images/proj4_img.JPG",
+            "img_path":"images/jdy_imgs/proj4_img.JPG",
             "proj_path":""
         },
         {
@@ -37,7 +37,7 @@
             "name":"지금 거기 사람 많나요?",
             "info": "(아이디어) 학교 내에 사람이 많은 이벤트 용.",
             "detail":"로그인, 참여하는 사람이 실시간으로 인/아웃을 눌러 지금 얼마나 몰려있는지 표시하는 카운터, 질문창(사용자가 직접 댓글을 남기는 게시판) 기능 필요",
-            "img_path":"images/proj5_img.JPG",
+            "img_path":"images/jdy_imgs/proj5_img.JPG",
             "proj_path":""
         }
     ],

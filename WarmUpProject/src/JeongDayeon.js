@@ -170,14 +170,14 @@ function TechStacks(){
             repeat.map(function(i){
               return(
                 <div className='tech_stack_dummy' key={i}>
-                  <li><img src="images/java.svg"  alt={alt}></img></li>
-                  <li><img src="images/python.svg"  alt={alt}></img></li>
-                  <li><img src="images/html5.svg"  alt={alt}></img></li>
-                  <li><img src="images/css3.svg"  alt={alt}></img></li>
-                  <li><img src="images/js.svg"  alt={alt}></img></li>
-                  <li><img src="images/nodejs.svg"  alt={alt}></img></li>
-                  <li><img src="images/pugjs.svg"  alt={alt}></img></li>
-                  <li><img src="images/mongodb.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/java.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/python.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/html5.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/css3.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/js.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/nodejs.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/pugjs.svg"  alt={alt}></img></li>
+                  <li><img src="images/jdy_imgs/mongodb.svg"  alt={alt}></img></li>
                 </div>
               )
             })
