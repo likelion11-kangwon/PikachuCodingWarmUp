@@ -11,7 +11,6 @@ function JeongDayeon() {
 
   return (
     <div className='JeongDayeon'>
-        <JustForStyle/>
         <div id='width_cut'>
           <JustForStyle />
           <Profile />
