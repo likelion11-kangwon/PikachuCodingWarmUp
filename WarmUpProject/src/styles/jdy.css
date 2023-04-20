@@ -6,6 +6,19 @@
     --font-side-c: rgb(196, 195, 195);
 }
 
+.JeongDayeon{
+    background-color: var(--side-c);
+}
+
+.JeongDayeon #width_cut{
+    background-color: var(--back-c);
+    position: relative;
+    width:350px;
+    padding: 20px;
+    margin:auto;
+    overflow: hidden;
+}
+
 .jdy_h1{
     font-size:48px;
 }
@@ -226,7 +239,7 @@
 #tech_stacks #tech_container{
     display: flex;
     overflow: hidden;
-    margin-left: calc(-50vw + 50%);
+    margin-left: -20px;
     width:390px;
     white-space:nowrap;
 }
