@@ -4,8 +4,30 @@
 import './styles/sangtae.css';
 
 function SeoSangtae() {
+  //홈과 상태님 페이지 상단의 css 선택자가 다른 페이지에 영향을 주어
+  //각 페이지에서 따로 스타일을 주도록 설정하였습니다.
+  const css_conflict=`
+  html {
+      font-size:62.5%;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  ul, li {
+      list-style: none;
+  }
+  input {
+      border: none;
+  }
+  body {
+  width: 39rem;
+  }
+  `
+
   return (
     <div className='SeoSangtae'>
+      <style>{css_conflict}</style>
       <SstBody />
     </div>
   )

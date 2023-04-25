@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function MovePer({img_path, page_path, name, num}){
 
     return(
-        <Link to={page_path}>
+        <Link className="move_par link" to={page_path}>
             <img src={img_path}></img>
             <div className="move_par name">{name}</div>
             <div className="move_par num">{num}</div>

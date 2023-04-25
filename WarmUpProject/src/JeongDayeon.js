@@ -20,6 +20,10 @@ function JeongDayeon() {
           <TechStacks />
           <Channels />
         </div>
+        <p className='small_font'>
+          정다연 개인 페이지 디자인의 절반이상은 한경준님에게서 나왔습니다!
+          <br/>양심이 찔려 출처 남깁니다
+        </p>
     </div>
   );
 }

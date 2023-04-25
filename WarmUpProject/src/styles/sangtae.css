@@ -5,6 +5,7 @@
 	border: none;
 }
 .sst_body {
+  display: inline-block;
   font-size:62.5%;
   width: 39rem;
 }.sangtae-H9r {

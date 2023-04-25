@@ -3,10 +3,32 @@ import './styles/Home.css';
 import MovePer from "./components/move_personal";
 //홈 페이지
 
+//홈과 상태님 페이지 상단의 css 선택자가 다른 페이지에 영향을 주어
+//각 페이지에서 따로 스타일을 주도록 설정하였습니다.
+const css_conflict=`
+    html {
+        font-size:62.5%;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    ul, li {
+        list-style: none;
+    }
+    input {
+        border: none;
+    }
+    body {
+    width: 39rem;
+    }
+`
+
 function Home() {
 
     return (
         <div class="iphone-13-13-pro-2-i7J">
+            <style>{css_conflict}</style>
             <img class="item--mjn" src="images/Home_imgs/Li.png" />
             <div class="auto-group-tesd-NDn">
                 <p class="pikachu-7j6">Pikachu</p>
@@ -65,7 +87,6 @@ function Home() {
             </p>
             <img class="image-5-UVe" src="images/Home_imgs/image-5.png" />
         </div>
-
     );
 }
 
