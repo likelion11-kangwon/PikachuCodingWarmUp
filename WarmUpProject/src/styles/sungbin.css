@@ -1,0 +1,1456 @@
+.-phone131-pro1-container {
+  min-height: 100vh;
+}
+.-phone131-pro1-i-phone131-pro1 {
+  width: 100%;
+  height: 3300px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(34, 34, 34, 1);
+}
+.-phone131-pro1-text {
+  top: 1031px;
+  left: 25px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text002 {
+  top: 2430px;
+  left: 31px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text004 {
+  top: 2005px;
+  left: 20px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text006 {
+  top: 1860px;
+  left: 20px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text008 {
+  top: 1422px;
+  left: 25px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text010 {
+  top: 268px;
+  left: 36px;
+  color: #EA6E6E;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-frame14 {
+  top: 1915px;
+  left: 20px;
+  width: 164px;
+  display: flex;
+  padding: 18px 20px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(180, 180, 180, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  justify-content: center;
+}
+.-phone131-pro1-text012 {
+  color: rgba(255, 255, 255, 1);
+  width: 124px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-frame17 {
+  top: 1915px;
+  left: 206px;
+  width: 164px;
+  display: flex;
+  padding: 18px 20px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(180, 180, 180, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  justify-content: center;
+}
+.-phone131-pro1-text014 {
+  color: rgba(255, 255, 255, 1);
+  width: 124px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text016 {
+  top: 38px;
+  left: 200px;
+  color: rgba(255, 255, 255, 1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text018 {
+  top: 84px;
+  left: 182px;
+  color: rgba(255, 255, 255, 1);
+  width: 217px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle9 {
+  top: 1089px;
+  left: 25px;
+  width: 154px;
+  height: 140px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle15 {
+  top: 1249px;
+  left: 214px;
+  width: 154px;
+  height: 140px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle21 {
+  top: 1089px;
+  left: 214px;
+  width: 154px;
+  height: 140px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle16 {
+  top: 1249px;
+  left: 25px;
+  width: 154px;
+  height: 140px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle10 {
+  top: 1480px;
+  left: 20px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle22 {
+  top: 2509px;
+  left: 20px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle68 {
+  top: 2886px;
+  left: 20px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-rectangle23 {
+  top: 2898px;
+  left: 14px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.-phone131-pro1-text031 {
+  top: 1660px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+  width: 299px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text033 {
+  top: 1499px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text035 {
+  top: 1562px;
+  left: 46px;
+  color: rgba(255, 255, 255, 1);
+  width: 307px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text037 {
+  top: 376px;
+  left: 223px;
+  color: rgba(255, 255, 255, 1);
+  width: 141px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text039 {
+  top: 693px;
+  left: 225px;
+  color: rgba(255, 255, 255, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text044 {
+  top: 519px;
+  left: 19px;
+  color: rgba(255, 255, 255, 1);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text046 {
+  top: 829px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+  width: 154px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle17 {
+  top: 323px;
+  left: 32px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.-phone131-pro1-rectangle18 {
+  top: 493px;
+  left: 219px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.-phone131-pro1-rectangle19 {
+  top: 803px;
+  left: 219px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.-phone131-pro1-rectangle20 {
+  top: 638px;
+  left: 29px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.-phone131-pro1-ellipse13 {
+  top: 84px;
+  left: 19px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+}
+.-phone131-pro1-text048 {
+  top: 1701px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  width: 319px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text055 {
+  top: 2538px;
+  left: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 323px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text070 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle24 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle25 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text072 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle26 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle27 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text074 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle32 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle33 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text076 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle34 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle35 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text078 {
+  top: 2166px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle28 {
+  top: 2149px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle29 {
+  top: 2149px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text080 {
+  top: 2166px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle30 {
+  top: 2149px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle31 {
+  top: 2149px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text082 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle36 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle37 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text084 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle38 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle39 {
+  top: 2069px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text086 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle40 {
+  top: 2069px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text088 {
+  top: 2086px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text090 {
+  top: 2166px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle44 {
+  top: 2149px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text092 {
+  top: 2166px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text094 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle47 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle48 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text096 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle49 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle50 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text098 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle51 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle52 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text100 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle53 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle54 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text102 {
+  top: 2326px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle55 {
+  top: 2309px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle56 {
+  top: 2309px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text104 {
+  top: 2326px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle57 {
+  top: 2309px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle58 {
+  top: 2309px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text106 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle59 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle60 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text108 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle61 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text110 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle63 {
+  top: 2229px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-rectangle64 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text112 {
+  top: 2246px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle66 {
+  top: 2229px;
+  left: 230px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text114 {
+  top: 2326px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-rectangle67 {
+  top: 2309px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.-phone131-pro1-text116 {
+  top: 2326px;
+  left: 180px;
+  color: rgba(255, 255, 255, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text118 {
+  top: 2086px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text120 {
+  top: 2087px;
+  left: 239px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text122 {
+  top: 2166px;
+  left: 239px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text124 {
+  top: 2166px;
+  left: 31px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text126 {
+  top: 2246px;
+  left: 239px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text128 {
+  top: 2246px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text130 {
+  top: 2324px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.-phone131-pro1-text132 {
+  top: 2326px;
+  left: 239px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: italic;
+  text-align: center;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
