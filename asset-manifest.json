@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PikachuCodingWarmUp/static/css/main.c40c9169.css",
-    "main.js": "/PikachuCodingWarmUp/static/js/main.398d5fa8.js",
+    "main.js": "/PikachuCodingWarmUp/static/js/main.62ad2724.js",
     "static/media/kakaotalk-1-bg.png": "/PikachuCodingWarmUp/static/media/kakaotalk20230403212212724-1-bg.1903ffae0de1aaf48467.png",
     "index.html": "/PikachuCodingWarmUp/index.html",
     "static/media/proj_panel_button_ui.svg": "/PikachuCodingWarmUp/static/media/proj_panel_button_ui.a371bdcae685c8e50d5d.svg",
     "main.c40c9169.css.map": "/PikachuCodingWarmUp/static/css/main.c40c9169.css.map",
-    "main.398d5fa8.js.map": "/PikachuCodingWarmUp/static/js/main.398d5fa8.js.map"
+    "main.62ad2724.js.map": "/PikachuCodingWarmUp/static/js/main.62ad2724.js.map"
   },
   "entrypoints": [
     "static/css/main.c40c9169.css",
-    "static/js/main.398d5fa8.js"
+    "static/js/main.62ad2724.js"
   ]
 }
